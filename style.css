@@ -1,0 +1,49 @@
+
+.calendar-item {
+	width: 200px;
+	display: inline-block;
+    font-size: 14px;
+	font: 14px/1.2 Arial;
+
+}
+
+.calendar-head {
+	text-align: center;
+	padding: 5px;
+}
+
+.calendar-item td:nth-child(6), .calendar-item td:nth-child(7),
+.calendar-item th:nth-child(6), .calendar-item th:nth-child(7){
+    color:unset;
+    color:red;
+}
+
+.calendar-another-month{
+    color:gray !important;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, tr, th{
+    padding: 5px;
+	text-align: center;
+	border: 1px solid grey;
+}
+
+td:hover{
+    background-color: #eeeeff;
+}
+
+td:active{
+    background-color: #8989ff;
+}
+
+th{
+    background-color: #D3D3D3;
+}
+
+.changed-background{
+    background-color: #CCCCFF;
+}
